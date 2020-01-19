@@ -11,5 +11,6 @@ func bonuses(sales []int) int {
 			totalBonuses += (sale-salesborder)*percent/100
 		}
 	}
+
 	return totalBonuses
 }
